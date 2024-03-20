@@ -1,0 +1,134 @@
+body {
+  background: rgb(13,13,13);
+  background: radial-gradient(circle, rgba(13,13,13,1) 39%, rgba(22,111,125,1) 78%, rgba(0,0,0,1) 100%);}
+
+.parallax-section {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.container {
+
+  color: rgb(255, 255, 255);
+
+
+
+
+}
+
+.bg-custom {
+  background-color: #166f7d;
+  /* Cambia #3498db por el color que desees */
+}
+
+
+#inicio {
+  background-image: url('/img/gatocodigo.jpg');
+  /* Cambia 'parallax1.jpg' por la imagen que quieras usar */
+}
+
+h1 {
+   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-family: '', cursive;
+   color: #feffff;
+  letter-spacing: 2px; /* Ajusta el espaciado entre letras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agrega sombra al texto */
+}
+ 
+ 
+ 
+
+  
+
+
+
+
+.textoanimado {
+  font-size: 55px;
+  color: #ffffff;
+  animation: neonEffect 8s ease-in-out infinite alternate;
+  /* Define la animación */
+}
+
+@keyframes neonEffect {
+  100% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #166f7d, 0 0 45px #166f7d, 0 0 60px #166f7d, 0 0 150px #166f7d, 0 0 150px #166f7d;
+  }
+  90% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #9908f3, 0 0 40px #1f0aa8, 0 0 80px #8a2be2, 0 0 150px #8a2be2, 0 0 150px #8a2be2; 
+  }
+}
+
+.yo{
+  text-align: center;
+}
+
+
+#servicios {
+  background-image: url('/img/tattoo.jpg');
+  /* Cambia 'parallax2.jpg' por la imagen que quieras usar */
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 40%;
+  /* Proporción de aspecto del video (16:9) */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#contacto {
+  background-image: url('/img/gato.jpeg');
+  /* Cambia 'parallax3.jpg' por la imagen que quieras usar */
+}
+
+.footer {
+  background: rgb(13, 13, 13);
+  background: linear-gradient(0deg, rgba(13, 13, 13, 1) 0%, rgba(0, 0, 0, 1) 27%, rgba(22, 111, 125, 1) 88%);
+  /* Cambia #3498db por el color que desees */
+  color: #ffffff;
+  /* Color de texto */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer h3 {
+  color: #ffffff;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #ffffff;
+}
+
+.footer a:hover {
+  color: #cccccc;
+}
