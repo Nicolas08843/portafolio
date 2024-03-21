@@ -98,7 +98,7 @@ h1 {
 
 
 #contacto {
-  background-image: url('/img/gato.jpeg');
+  background-image: url(img/gato.jpeg);
   /* Cambia 'parallax3.jpg' por la imagen que quieras usar */
 }
 
