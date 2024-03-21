@@ -22,7 +22,8 @@ body {
 }
 
 .bg-custom {
-  background-color: #166f7d;
+  background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(22,111,125,1) 100%);
   /* Cambia #3498db por el color que desees */
 }
 
