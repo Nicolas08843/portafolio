@@ -49,6 +49,10 @@ h1 {
    color: #feffff;
   letter-spacing: 2px; /* Ajusta el espaciado entre letras */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agrega sombra al texto */
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+  
 }
  
  
